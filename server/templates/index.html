@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Monitor de Respiração</title>
+  <script src="/static/app.js" defer></script>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #00BFA6;
+    }
+
+    #value {
+      font-size: 4rem;
+      font-weight: bold;
+      background-color: #1f1f1f;
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 191, 166, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <h1>Respirações por Minuto (RPM)</h1>
+  <p id="value">Carregando...</p>
+</body>
+</html>
