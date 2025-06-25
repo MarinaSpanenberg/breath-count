@@ -8,6 +8,7 @@ Este repositório trata-se de um sistema IoT de monitoramento de RPM (Respiraç�
 - Placa Raspberry Pi 4.
 
 ## Montagem do circuito:
+![circuito](https://github.com/user-attachments/assets/481d9930-85af-4a0e-8981-e99541acadce)
 
 ## Execução:
 ### 1. Crie um ambiente virtual
